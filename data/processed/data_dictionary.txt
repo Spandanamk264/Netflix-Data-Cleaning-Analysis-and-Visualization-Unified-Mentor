@@ -1,0 +1,147 @@
+NETFLIX CLEANED DATA DICTIONARY
+============================================================
+
+show_id
+  Type: object
+  Non-null: 8790
+  Unique: 8790
+  Sample: ['s1', 's3']
+
+type
+  Type: object
+  Non-null: 8790
+  Unique: 2
+  Sample: ['Movie', 'TV Show']
+
+title
+  Type: object
+  Non-null: 8790
+  Unique: 8786
+  Sample: ['Dick Johnson Is Dead', 'Ganglands']
+
+director
+  Type: object
+  Non-null: 8790
+  Unique: 4528
+  Sample: ['Kirsten Johnson', 'Julien Leclercq']
+
+country
+  Type: object
+  Non-null: 8790
+  Unique: 86
+  Sample: ['United States', 'France']
+
+date_added
+  Type: object
+  Non-null: 8790
+  Unique: 1713
+  Sample: ['9/25/2021', '9/24/2021']
+
+release_year
+  Type: int64
+  Non-null: 8790
+  Unique: 74
+
+rating
+  Type: object
+  Non-null: 8790
+  Unique: 14
+  Sample: ['PG-13', 'TV-MA']
+
+duration
+  Type: object
+  Non-null: 8790
+  Unique: 220
+  Sample: ['90 min', '1 Season']
+
+listed_in
+  Type: object
+  Non-null: 8790
+  Unique: 513
+  Sample: ['Documentaries', 'Crime TV Shows, International TV Shows, TV Action & Adventure']
+
+has_director
+  Type: bool
+  Non-null: 8790
+  Unique: 1
+
+has_country
+  Type: bool
+  Non-null: 8790
+  Unique: 1
+
+date_added_parsed
+  Type: datetime64[ns]
+  Non-null: 8790
+  Unique: 1713
+
+year_added
+  Type: int32
+  Non-null: 8790
+  Unique: 14
+
+month_added
+  Type: int32
+  Non-null: 8790
+  Unique: 12
+
+day_added
+  Type: int32
+  Non-null: 8790
+  Unique: 31
+
+day_of_week_added
+  Type: int32
+  Non-null: 8790
+  Unique: 7
+
+is_weekend_add
+  Type: bool
+  Non-null: 8790
+  Unique: 2
+
+duration_minutes
+  Type: float64
+  Non-null: 6126
+  Unique: 205
+
+season_count
+  Type: float64
+  Non-null: 2664
+  Unique: 15
+
+release_year_date
+  Type: datetime64[ns]
+  Non-null: 8790
+  Unique: 74
+
+release_age_days
+  Type: int64
+  Non-null: 8790
+  Unique: 2711
+
+release_age_years
+  Type: float64
+  Non-null: 8790
+  Unique: 2711
+
+days_since_first_record
+  Type: int64
+  Non-null: 8790
+  Unique: 1713
+
+title_length
+  Type: int64
+  Non-null: 8790
+  Unique: 77
+
+number_of_genres
+  Type: int64
+  Non-null: 8790
+  Unique: 3
+
+number_of_countries
+  Type: int64
+  Non-null: 8790
+  Unique: 1
+

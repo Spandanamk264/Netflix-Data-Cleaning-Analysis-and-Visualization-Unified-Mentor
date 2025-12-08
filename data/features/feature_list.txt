@@ -1,0 +1,2093 @@
+NETFLIX FEATURE LIST
+============================================================
+
+show_id
+  Type: object
+  Non-null: 8790
+
+type
+  Type: object
+  Non-null: 8790
+
+title
+  Type: object
+  Non-null: 8790
+
+director
+  Type: object
+  Non-null: 8790
+
+country
+  Type: object
+  Non-null: 8790
+
+date_added
+  Type: object
+  Non-null: 8790
+
+release_year
+  Type: int64
+  Non-null: 8790
+  Mean: 2014.18
+  Std: 8.83
+
+rating
+  Type: object
+  Non-null: 8790
+
+duration
+  Type: object
+  Non-null: 8790
+
+listed_in
+  Type: object
+  Non-null: 8790
+
+has_director
+  Type: bool
+  Non-null: 8790
+
+has_country
+  Type: bool
+  Non-null: 8790
+
+date_added_parsed
+  Type: datetime64[ns]
+  Non-null: 8790
+
+year_added
+  Type: int64
+  Non-null: 8790
+  Mean: 2018.87
+  Std: 1.57
+
+month_added
+  Type: int64
+  Non-null: 8790
+  Mean: 6.66
+  Std: 3.44
+
+day_added
+  Type: int64
+  Non-null: 8790
+  Mean: 12.50
+  Std: 9.89
+
+day_of_week_added
+  Type: int64
+  Non-null: 8790
+  Mean: 3.02
+  Std: 1.73
+
+is_weekend_add
+  Type: bool
+  Non-null: 8790
+
+duration_minutes
+  Type: float64
+  Non-null: 6126
+  Mean: 99.58
+  Std: 28.28
+
+season_count
+  Type: float64
+  Non-null: 2664
+  Mean: 1.75
+  Std: 1.55
+
+release_year_date
+  Type: object
+  Non-null: 8790
+
+release_age_days
+  Type: int64
+  Non-null: 8790
+  Mean: 1896.14
+  Std: 3212.06
+
+release_age_years
+  Type: float64
+  Non-null: 8790
+  Mean: 5.19
+  Std: 8.79
+
+days_since_first_record
+  Type: int64
+  Non-null: 8790
+  Mean: 4154.91
+  Std: 568.00
+
+title_length
+  Type: int64
+  Non-null: 8790
+  Mean: 17.72
+  Std: 10.62
+
+number_of_genres
+  Type: int64
+  Non-null: 8790
+  Mean: 2.19
+  Std: 0.78
+
+number_of_countries
+  Type: int64
+  Non-null: 8790
+  Mean: 1.00
+  Std: 0.00
+
+title_tokens
+  Type: object
+  Non-null: 8790
+
+title_token_count
+  Type: int64
+  Non-null: 8790
+  Mean: 3.08
+  Std: 1.83
+
+title_avg_token_length
+  Type: float64
+  Non-null: 8790
+  Mean: 5.33
+  Std: 1.74
+
+title_emb_0
+  Type: float32
+  Non-null: 8790
+
+title_emb_1
+  Type: float32
+  Non-null: 8790
+
+title_emb_2
+  Type: float32
+  Non-null: 8790
+
+title_emb_3
+  Type: float32
+  Non-null: 8790
+
+title_emb_4
+  Type: float32
+  Non-null: 8790
+
+title_emb_5
+  Type: float32
+  Non-null: 8790
+
+title_emb_6
+  Type: float32
+  Non-null: 8790
+
+title_emb_7
+  Type: float32
+  Non-null: 8790
+
+title_emb_8
+  Type: float32
+  Non-null: 8790
+
+title_emb_9
+  Type: float32
+  Non-null: 8790
+
+title_emb_10
+  Type: float32
+  Non-null: 8790
+
+title_emb_11
+  Type: float32
+  Non-null: 8790
+
+title_emb_12
+  Type: float32
+  Non-null: 8790
+
+title_emb_13
+  Type: float32
+  Non-null: 8790
+
+title_emb_14
+  Type: float32
+  Non-null: 8790
+
+title_emb_15
+  Type: float32
+  Non-null: 8790
+
+title_emb_16
+  Type: float32
+  Non-null: 8790
+
+title_emb_17
+  Type: float32
+  Non-null: 8790
+
+title_emb_18
+  Type: float32
+  Non-null: 8790
+
+title_emb_19
+  Type: float32
+  Non-null: 8790
+
+title_emb_20
+  Type: float32
+  Non-null: 8790
+
+title_emb_21
+  Type: float32
+  Non-null: 8790
+
+title_emb_22
+  Type: float32
+  Non-null: 8790
+
+title_emb_23
+  Type: float32
+  Non-null: 8790
+
+title_emb_24
+  Type: float32
+  Non-null: 8790
+
+title_emb_25
+  Type: float32
+  Non-null: 8790
+
+title_emb_26
+  Type: float32
+  Non-null: 8790
+
+title_emb_27
+  Type: float32
+  Non-null: 8790
+
+title_emb_28
+  Type: float32
+  Non-null: 8790
+
+title_emb_29
+  Type: float32
+  Non-null: 8790
+
+title_emb_30
+  Type: float32
+  Non-null: 8790
+
+title_emb_31
+  Type: float32
+  Non-null: 8790
+
+title_emb_32
+  Type: float32
+  Non-null: 8790
+
+title_emb_33
+  Type: float32
+  Non-null: 8790
+
+title_emb_34
+  Type: float32
+  Non-null: 8790
+
+title_emb_35
+  Type: float32
+  Non-null: 8790
+
+title_emb_36
+  Type: float32
+  Non-null: 8790
+
+title_emb_37
+  Type: float32
+  Non-null: 8790
+
+title_emb_38
+  Type: float32
+  Non-null: 8790
+
+title_emb_39
+  Type: float32
+  Non-null: 8790
+
+title_emb_40
+  Type: float32
+  Non-null: 8790
+
+title_emb_41
+  Type: float32
+  Non-null: 8790
+
+title_emb_42
+  Type: float32
+  Non-null: 8790
+
+title_emb_43
+  Type: float32
+  Non-null: 8790
+
+title_emb_44
+  Type: float32
+  Non-null: 8790
+
+title_emb_45
+  Type: float32
+  Non-null: 8790
+
+title_emb_46
+  Type: float32
+  Non-null: 8790
+
+title_emb_47
+  Type: float32
+  Non-null: 8790
+
+title_emb_48
+  Type: float32
+  Non-null: 8790
+
+title_emb_49
+  Type: float32
+  Non-null: 8790
+
+title_emb_50
+  Type: float32
+  Non-null: 8790
+
+title_emb_51
+  Type: float32
+  Non-null: 8790
+
+title_emb_52
+  Type: float32
+  Non-null: 8790
+
+title_emb_53
+  Type: float32
+  Non-null: 8790
+
+title_emb_54
+  Type: float32
+  Non-null: 8790
+
+title_emb_55
+  Type: float32
+  Non-null: 8790
+
+title_emb_56
+  Type: float32
+  Non-null: 8790
+
+title_emb_57
+  Type: float32
+  Non-null: 8790
+
+title_emb_58
+  Type: float32
+  Non-null: 8790
+
+title_emb_59
+  Type: float32
+  Non-null: 8790
+
+title_emb_60
+  Type: float32
+  Non-null: 8790
+
+title_emb_61
+  Type: float32
+  Non-null: 8790
+
+title_emb_62
+  Type: float32
+  Non-null: 8790
+
+title_emb_63
+  Type: float32
+  Non-null: 8790
+
+title_emb_64
+  Type: float32
+  Non-null: 8790
+
+title_emb_65
+  Type: float32
+  Non-null: 8790
+
+title_emb_66
+  Type: float32
+  Non-null: 8790
+
+title_emb_67
+  Type: float32
+  Non-null: 8790
+
+title_emb_68
+  Type: float32
+  Non-null: 8790
+
+title_emb_69
+  Type: float32
+  Non-null: 8790
+
+title_emb_70
+  Type: float32
+  Non-null: 8790
+
+title_emb_71
+  Type: float32
+  Non-null: 8790
+
+title_emb_72
+  Type: float32
+  Non-null: 8790
+
+title_emb_73
+  Type: float32
+  Non-null: 8790
+
+title_emb_74
+  Type: float32
+  Non-null: 8790
+
+title_emb_75
+  Type: float32
+  Non-null: 8790
+
+title_emb_76
+  Type: float32
+  Non-null: 8790
+
+title_emb_77
+  Type: float32
+  Non-null: 8790
+
+title_emb_78
+  Type: float32
+  Non-null: 8790
+
+title_emb_79
+  Type: float32
+  Non-null: 8790
+
+title_emb_80
+  Type: float32
+  Non-null: 8790
+
+title_emb_81
+  Type: float32
+  Non-null: 8790
+
+title_emb_82
+  Type: float32
+  Non-null: 8790
+
+title_emb_83
+  Type: float32
+  Non-null: 8790
+
+title_emb_84
+  Type: float32
+  Non-null: 8790
+
+title_emb_85
+  Type: float32
+  Non-null: 8790
+
+title_emb_86
+  Type: float32
+  Non-null: 8790
+
+title_emb_87
+  Type: float32
+  Non-null: 8790
+
+title_emb_88
+  Type: float32
+  Non-null: 8790
+
+title_emb_89
+  Type: float32
+  Non-null: 8790
+
+title_emb_90
+  Type: float32
+  Non-null: 8790
+
+title_emb_91
+  Type: float32
+  Non-null: 8790
+
+title_emb_92
+  Type: float32
+  Non-null: 8790
+
+title_emb_93
+  Type: float32
+  Non-null: 8790
+
+title_emb_94
+  Type: float32
+  Non-null: 8790
+
+title_emb_95
+  Type: float32
+  Non-null: 8790
+
+title_emb_96
+  Type: float32
+  Non-null: 8790
+
+title_emb_97
+  Type: float32
+  Non-null: 8790
+
+title_emb_98
+  Type: float32
+  Non-null: 8790
+
+title_emb_99
+  Type: float32
+  Non-null: 8790
+
+title_emb_100
+  Type: float32
+  Non-null: 8790
+
+title_emb_101
+  Type: float32
+  Non-null: 8790
+
+title_emb_102
+  Type: float32
+  Non-null: 8790
+
+title_emb_103
+  Type: float32
+  Non-null: 8790
+
+title_emb_104
+  Type: float32
+  Non-null: 8790
+
+title_emb_105
+  Type: float32
+  Non-null: 8790
+
+title_emb_106
+  Type: float32
+  Non-null: 8790
+
+title_emb_107
+  Type: float32
+  Non-null: 8790
+
+title_emb_108
+  Type: float32
+  Non-null: 8790
+
+title_emb_109
+  Type: float32
+  Non-null: 8790
+
+title_emb_110
+  Type: float32
+  Non-null: 8790
+
+title_emb_111
+  Type: float32
+  Non-null: 8790
+
+title_emb_112
+  Type: float32
+  Non-null: 8790
+
+title_emb_113
+  Type: float32
+  Non-null: 8790
+
+title_emb_114
+  Type: float32
+  Non-null: 8790
+
+title_emb_115
+  Type: float32
+  Non-null: 8790
+
+title_emb_116
+  Type: float32
+  Non-null: 8790
+
+title_emb_117
+  Type: float32
+  Non-null: 8790
+
+title_emb_118
+  Type: float32
+  Non-null: 8790
+
+title_emb_119
+  Type: float32
+  Non-null: 8790
+
+title_emb_120
+  Type: float32
+  Non-null: 8790
+
+title_emb_121
+  Type: float32
+  Non-null: 8790
+
+title_emb_122
+  Type: float32
+  Non-null: 8790
+
+title_emb_123
+  Type: float32
+  Non-null: 8790
+
+title_emb_124
+  Type: float32
+  Non-null: 8790
+
+title_emb_125
+  Type: float32
+  Non-null: 8790
+
+title_emb_126
+  Type: float32
+  Non-null: 8790
+
+title_emb_127
+  Type: float32
+  Non-null: 8790
+
+title_emb_128
+  Type: float32
+  Non-null: 8790
+
+title_emb_129
+  Type: float32
+  Non-null: 8790
+
+title_emb_130
+  Type: float32
+  Non-null: 8790
+
+title_emb_131
+  Type: float32
+  Non-null: 8790
+
+title_emb_132
+  Type: float32
+  Non-null: 8790
+
+title_emb_133
+  Type: float32
+  Non-null: 8790
+
+title_emb_134
+  Type: float32
+  Non-null: 8790
+
+title_emb_135
+  Type: float32
+  Non-null: 8790
+
+title_emb_136
+  Type: float32
+  Non-null: 8790
+
+title_emb_137
+  Type: float32
+  Non-null: 8790
+
+title_emb_138
+  Type: float32
+  Non-null: 8790
+
+title_emb_139
+  Type: float32
+  Non-null: 8790
+
+title_emb_140
+  Type: float32
+  Non-null: 8790
+
+title_emb_141
+  Type: float32
+  Non-null: 8790
+
+title_emb_142
+  Type: float32
+  Non-null: 8790
+
+title_emb_143
+  Type: float32
+  Non-null: 8790
+
+title_emb_144
+  Type: float32
+  Non-null: 8790
+
+title_emb_145
+  Type: float32
+  Non-null: 8790
+
+title_emb_146
+  Type: float32
+  Non-null: 8790
+
+title_emb_147
+  Type: float32
+  Non-null: 8790
+
+title_emb_148
+  Type: float32
+  Non-null: 8790
+
+title_emb_149
+  Type: float32
+  Non-null: 8790
+
+title_emb_150
+  Type: float32
+  Non-null: 8790
+
+title_emb_151
+  Type: float32
+  Non-null: 8790
+
+title_emb_152
+  Type: float32
+  Non-null: 8790
+
+title_emb_153
+  Type: float32
+  Non-null: 8790
+
+title_emb_154
+  Type: float32
+  Non-null: 8790
+
+title_emb_155
+  Type: float32
+  Non-null: 8790
+
+title_emb_156
+  Type: float32
+  Non-null: 8790
+
+title_emb_157
+  Type: float32
+  Non-null: 8790
+
+title_emb_158
+  Type: float32
+  Non-null: 8790
+
+title_emb_159
+  Type: float32
+  Non-null: 8790
+
+title_emb_160
+  Type: float32
+  Non-null: 8790
+
+title_emb_161
+  Type: float32
+  Non-null: 8790
+
+title_emb_162
+  Type: float32
+  Non-null: 8790
+
+title_emb_163
+  Type: float32
+  Non-null: 8790
+
+title_emb_164
+  Type: float32
+  Non-null: 8790
+
+title_emb_165
+  Type: float32
+  Non-null: 8790
+
+title_emb_166
+  Type: float32
+  Non-null: 8790
+
+title_emb_167
+  Type: float32
+  Non-null: 8790
+
+title_emb_168
+  Type: float32
+  Non-null: 8790
+
+title_emb_169
+  Type: float32
+  Non-null: 8790
+
+title_emb_170
+  Type: float32
+  Non-null: 8790
+
+title_emb_171
+  Type: float32
+  Non-null: 8790
+
+title_emb_172
+  Type: float32
+  Non-null: 8790
+
+title_emb_173
+  Type: float32
+  Non-null: 8790
+
+title_emb_174
+  Type: float32
+  Non-null: 8790
+
+title_emb_175
+  Type: float32
+  Non-null: 8790
+
+title_emb_176
+  Type: float32
+  Non-null: 8790
+
+title_emb_177
+  Type: float32
+  Non-null: 8790
+
+title_emb_178
+  Type: float32
+  Non-null: 8790
+
+title_emb_179
+  Type: float32
+  Non-null: 8790
+
+title_emb_180
+  Type: float32
+  Non-null: 8790
+
+title_emb_181
+  Type: float32
+  Non-null: 8790
+
+title_emb_182
+  Type: float32
+  Non-null: 8790
+
+title_emb_183
+  Type: float32
+  Non-null: 8790
+
+title_emb_184
+  Type: float32
+  Non-null: 8790
+
+title_emb_185
+  Type: float32
+  Non-null: 8790
+
+title_emb_186
+  Type: float32
+  Non-null: 8790
+
+title_emb_187
+  Type: float32
+  Non-null: 8790
+
+title_emb_188
+  Type: float32
+  Non-null: 8790
+
+title_emb_189
+  Type: float32
+  Non-null: 8790
+
+title_emb_190
+  Type: float32
+  Non-null: 8790
+
+title_emb_191
+  Type: float32
+  Non-null: 8790
+
+title_emb_192
+  Type: float32
+  Non-null: 8790
+
+title_emb_193
+  Type: float32
+  Non-null: 8790
+
+title_emb_194
+  Type: float32
+  Non-null: 8790
+
+title_emb_195
+  Type: float32
+  Non-null: 8790
+
+title_emb_196
+  Type: float32
+  Non-null: 8790
+
+title_emb_197
+  Type: float32
+  Non-null: 8790
+
+title_emb_198
+  Type: float32
+  Non-null: 8790
+
+title_emb_199
+  Type: float32
+  Non-null: 8790
+
+title_emb_200
+  Type: float32
+  Non-null: 8790
+
+title_emb_201
+  Type: float32
+  Non-null: 8790
+
+title_emb_202
+  Type: float32
+  Non-null: 8790
+
+title_emb_203
+  Type: float32
+  Non-null: 8790
+
+title_emb_204
+  Type: float32
+  Non-null: 8790
+
+title_emb_205
+  Type: float32
+  Non-null: 8790
+
+title_emb_206
+  Type: float32
+  Non-null: 8790
+
+title_emb_207
+  Type: float32
+  Non-null: 8790
+
+title_emb_208
+  Type: float32
+  Non-null: 8790
+
+title_emb_209
+  Type: float32
+  Non-null: 8790
+
+title_emb_210
+  Type: float32
+  Non-null: 8790
+
+title_emb_211
+  Type: float32
+  Non-null: 8790
+
+title_emb_212
+  Type: float32
+  Non-null: 8790
+
+title_emb_213
+  Type: float32
+  Non-null: 8790
+
+title_emb_214
+  Type: float32
+  Non-null: 8790
+
+title_emb_215
+  Type: float32
+  Non-null: 8790
+
+title_emb_216
+  Type: float32
+  Non-null: 8790
+
+title_emb_217
+  Type: float32
+  Non-null: 8790
+
+title_emb_218
+  Type: float32
+  Non-null: 8790
+
+title_emb_219
+  Type: float32
+  Non-null: 8790
+
+title_emb_220
+  Type: float32
+  Non-null: 8790
+
+title_emb_221
+  Type: float32
+  Non-null: 8790
+
+title_emb_222
+  Type: float32
+  Non-null: 8790
+
+title_emb_223
+  Type: float32
+  Non-null: 8790
+
+title_emb_224
+  Type: float32
+  Non-null: 8790
+
+title_emb_225
+  Type: float32
+  Non-null: 8790
+
+title_emb_226
+  Type: float32
+  Non-null: 8790
+
+title_emb_227
+  Type: float32
+  Non-null: 8790
+
+title_emb_228
+  Type: float32
+  Non-null: 8790
+
+title_emb_229
+  Type: float32
+  Non-null: 8790
+
+title_emb_230
+  Type: float32
+  Non-null: 8790
+
+title_emb_231
+  Type: float32
+  Non-null: 8790
+
+title_emb_232
+  Type: float32
+  Non-null: 8790
+
+title_emb_233
+  Type: float32
+  Non-null: 8790
+
+title_emb_234
+  Type: float32
+  Non-null: 8790
+
+title_emb_235
+  Type: float32
+  Non-null: 8790
+
+title_emb_236
+  Type: float32
+  Non-null: 8790
+
+title_emb_237
+  Type: float32
+  Non-null: 8790
+
+title_emb_238
+  Type: float32
+  Non-null: 8790
+
+title_emb_239
+  Type: float32
+  Non-null: 8790
+
+title_emb_240
+  Type: float32
+  Non-null: 8790
+
+title_emb_241
+  Type: float32
+  Non-null: 8790
+
+title_emb_242
+  Type: float32
+  Non-null: 8790
+
+title_emb_243
+  Type: float32
+  Non-null: 8790
+
+title_emb_244
+  Type: float32
+  Non-null: 8790
+
+title_emb_245
+  Type: float32
+  Non-null: 8790
+
+title_emb_246
+  Type: float32
+  Non-null: 8790
+
+title_emb_247
+  Type: float32
+  Non-null: 8790
+
+title_emb_248
+  Type: float32
+  Non-null: 8790
+
+title_emb_249
+  Type: float32
+  Non-null: 8790
+
+title_emb_250
+  Type: float32
+  Non-null: 8790
+
+title_emb_251
+  Type: float32
+  Non-null: 8790
+
+title_emb_252
+  Type: float32
+  Non-null: 8790
+
+title_emb_253
+  Type: float32
+  Non-null: 8790
+
+title_emb_254
+  Type: float32
+  Non-null: 8790
+
+title_emb_255
+  Type: float32
+  Non-null: 8790
+
+title_emb_256
+  Type: float32
+  Non-null: 8790
+
+title_emb_257
+  Type: float32
+  Non-null: 8790
+
+title_emb_258
+  Type: float32
+  Non-null: 8790
+
+title_emb_259
+  Type: float32
+  Non-null: 8790
+
+title_emb_260
+  Type: float32
+  Non-null: 8790
+
+title_emb_261
+  Type: float32
+  Non-null: 8790
+
+title_emb_262
+  Type: float32
+  Non-null: 8790
+
+title_emb_263
+  Type: float32
+  Non-null: 8790
+
+title_emb_264
+  Type: float32
+  Non-null: 8790
+
+title_emb_265
+  Type: float32
+  Non-null: 8790
+
+title_emb_266
+  Type: float32
+  Non-null: 8790
+
+title_emb_267
+  Type: float32
+  Non-null: 8790
+
+title_emb_268
+  Type: float32
+  Non-null: 8790
+
+title_emb_269
+  Type: float32
+  Non-null: 8790
+
+title_emb_270
+  Type: float32
+  Non-null: 8790
+
+title_emb_271
+  Type: float32
+  Non-null: 8790
+
+title_emb_272
+  Type: float32
+  Non-null: 8790
+
+title_emb_273
+  Type: float32
+  Non-null: 8790
+
+title_emb_274
+  Type: float32
+  Non-null: 8790
+
+title_emb_275
+  Type: float32
+  Non-null: 8790
+
+title_emb_276
+  Type: float32
+  Non-null: 8790
+
+title_emb_277
+  Type: float32
+  Non-null: 8790
+
+title_emb_278
+  Type: float32
+  Non-null: 8790
+
+title_emb_279
+  Type: float32
+  Non-null: 8790
+
+title_emb_280
+  Type: float32
+  Non-null: 8790
+
+title_emb_281
+  Type: float32
+  Non-null: 8790
+
+title_emb_282
+  Type: float32
+  Non-null: 8790
+
+title_emb_283
+  Type: float32
+  Non-null: 8790
+
+title_emb_284
+  Type: float32
+  Non-null: 8790
+
+title_emb_285
+  Type: float32
+  Non-null: 8790
+
+title_emb_286
+  Type: float32
+  Non-null: 8790
+
+title_emb_287
+  Type: float32
+  Non-null: 8790
+
+title_emb_288
+  Type: float32
+  Non-null: 8790
+
+title_emb_289
+  Type: float32
+  Non-null: 8790
+
+title_emb_290
+  Type: float32
+  Non-null: 8790
+
+title_emb_291
+  Type: float32
+  Non-null: 8790
+
+title_emb_292
+  Type: float32
+  Non-null: 8790
+
+title_emb_293
+  Type: float32
+  Non-null: 8790
+
+title_emb_294
+  Type: float32
+  Non-null: 8790
+
+title_emb_295
+  Type: float32
+  Non-null: 8790
+
+title_emb_296
+  Type: float32
+  Non-null: 8790
+
+title_emb_297
+  Type: float32
+  Non-null: 8790
+
+title_emb_298
+  Type: float32
+  Non-null: 8790
+
+title_emb_299
+  Type: float32
+  Non-null: 8790
+
+title_emb_300
+  Type: float32
+  Non-null: 8790
+
+title_emb_301
+  Type: float32
+  Non-null: 8790
+
+title_emb_302
+  Type: float32
+  Non-null: 8790
+
+title_emb_303
+  Type: float32
+  Non-null: 8790
+
+title_emb_304
+  Type: float32
+  Non-null: 8790
+
+title_emb_305
+  Type: float32
+  Non-null: 8790
+
+title_emb_306
+  Type: float32
+  Non-null: 8790
+
+title_emb_307
+  Type: float32
+  Non-null: 8790
+
+title_emb_308
+  Type: float32
+  Non-null: 8790
+
+title_emb_309
+  Type: float32
+  Non-null: 8790
+
+title_emb_310
+  Type: float32
+  Non-null: 8790
+
+title_emb_311
+  Type: float32
+  Non-null: 8790
+
+title_emb_312
+  Type: float32
+  Non-null: 8790
+
+title_emb_313
+  Type: float32
+  Non-null: 8790
+
+title_emb_314
+  Type: float32
+  Non-null: 8790
+
+title_emb_315
+  Type: float32
+  Non-null: 8790
+
+title_emb_316
+  Type: float32
+  Non-null: 8790
+
+title_emb_317
+  Type: float32
+  Non-null: 8790
+
+title_emb_318
+  Type: float32
+  Non-null: 8790
+
+title_emb_319
+  Type: float32
+  Non-null: 8790
+
+title_emb_320
+  Type: float32
+  Non-null: 8790
+
+title_emb_321
+  Type: float32
+  Non-null: 8790
+
+title_emb_322
+  Type: float32
+  Non-null: 8790
+
+title_emb_323
+  Type: float32
+  Non-null: 8790
+
+title_emb_324
+  Type: float32
+  Non-null: 8790
+
+title_emb_325
+  Type: float32
+  Non-null: 8790
+
+title_emb_326
+  Type: float32
+  Non-null: 8790
+
+title_emb_327
+  Type: float32
+  Non-null: 8790
+
+title_emb_328
+  Type: float32
+  Non-null: 8790
+
+title_emb_329
+  Type: float32
+  Non-null: 8790
+
+title_emb_330
+  Type: float32
+  Non-null: 8790
+
+title_emb_331
+  Type: float32
+  Non-null: 8790
+
+title_emb_332
+  Type: float32
+  Non-null: 8790
+
+title_emb_333
+  Type: float32
+  Non-null: 8790
+
+title_emb_334
+  Type: float32
+  Non-null: 8790
+
+title_emb_335
+  Type: float32
+  Non-null: 8790
+
+title_emb_336
+  Type: float32
+  Non-null: 8790
+
+title_emb_337
+  Type: float32
+  Non-null: 8790
+
+title_emb_338
+  Type: float32
+  Non-null: 8790
+
+title_emb_339
+  Type: float32
+  Non-null: 8790
+
+title_emb_340
+  Type: float32
+  Non-null: 8790
+
+title_emb_341
+  Type: float32
+  Non-null: 8790
+
+title_emb_342
+  Type: float32
+  Non-null: 8790
+
+title_emb_343
+  Type: float32
+  Non-null: 8790
+
+title_emb_344
+  Type: float32
+  Non-null: 8790
+
+title_emb_345
+  Type: float32
+  Non-null: 8790
+
+title_emb_346
+  Type: float32
+  Non-null: 8790
+
+title_emb_347
+  Type: float32
+  Non-null: 8790
+
+title_emb_348
+  Type: float32
+  Non-null: 8790
+
+title_emb_349
+  Type: float32
+  Non-null: 8790
+
+title_emb_350
+  Type: float32
+  Non-null: 8790
+
+title_emb_351
+  Type: float32
+  Non-null: 8790
+
+title_emb_352
+  Type: float32
+  Non-null: 8790
+
+title_emb_353
+  Type: float32
+  Non-null: 8790
+
+title_emb_354
+  Type: float32
+  Non-null: 8790
+
+title_emb_355
+  Type: float32
+  Non-null: 8790
+
+title_emb_356
+  Type: float32
+  Non-null: 8790
+
+title_emb_357
+  Type: float32
+  Non-null: 8790
+
+title_emb_358
+  Type: float32
+  Non-null: 8790
+
+title_emb_359
+  Type: float32
+  Non-null: 8790
+
+title_emb_360
+  Type: float32
+  Non-null: 8790
+
+title_emb_361
+  Type: float32
+  Non-null: 8790
+
+title_emb_362
+  Type: float32
+  Non-null: 8790
+
+title_emb_363
+  Type: float32
+  Non-null: 8790
+
+title_emb_364
+  Type: float32
+  Non-null: 8790
+
+title_emb_365
+  Type: float32
+  Non-null: 8790
+
+title_emb_366
+  Type: float32
+  Non-null: 8790
+
+title_emb_367
+  Type: float32
+  Non-null: 8790
+
+title_emb_368
+  Type: float32
+  Non-null: 8790
+
+title_emb_369
+  Type: float32
+  Non-null: 8790
+
+title_emb_370
+  Type: float32
+  Non-null: 8790
+
+title_emb_371
+  Type: float32
+  Non-null: 8790
+
+title_emb_372
+  Type: float32
+  Non-null: 8790
+
+title_emb_373
+  Type: float32
+  Non-null: 8790
+
+title_emb_374
+  Type: float32
+  Non-null: 8790
+
+title_emb_375
+  Type: float32
+  Non-null: 8790
+
+title_emb_376
+  Type: float32
+  Non-null: 8790
+
+title_emb_377
+  Type: float32
+  Non-null: 8790
+
+title_emb_378
+  Type: float32
+  Non-null: 8790
+
+title_emb_379
+  Type: float32
+  Non-null: 8790
+
+title_emb_380
+  Type: float32
+  Non-null: 8790
+
+title_emb_381
+  Type: float32
+  Non-null: 8790
+
+title_emb_382
+  Type: float32
+  Non-null: 8790
+
+title_emb_383
+  Type: float32
+  Non-null: 8790
+
+genre_action_and_adventure
+  Type: int32
+  Non-null: 8790
+
+genre_anime_features
+  Type: int32
+  Non-null: 8790
+
+genre_anime_series
+  Type: int32
+  Non-null: 8790
+
+genre_british_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_children_and_family_movies
+  Type: int32
+  Non-null: 8790
+
+genre_classic_and_cult_tv
+  Type: int32
+  Non-null: 8790
+
+genre_classic_movies
+  Type: int32
+  Non-null: 8790
+
+genre_comedies
+  Type: int32
+  Non-null: 8790
+
+genre_crime_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_cult_movies
+  Type: int32
+  Non-null: 8790
+
+genre_documentaries
+  Type: int32
+  Non-null: 8790
+
+genre_docuseries
+  Type: int32
+  Non-null: 8790
+
+genre_dramas
+  Type: int32
+  Non-null: 8790
+
+genre_faith_and_spirituality
+  Type: int32
+  Non-null: 8790
+
+genre_horror_movies
+  Type: int32
+  Non-null: 8790
+
+genre_independent_movies
+  Type: int32
+  Non-null: 8790
+
+genre_international_movies
+  Type: int32
+  Non-null: 8790
+
+genre_international_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_kids'_tv
+  Type: int32
+  Non-null: 8790
+
+genre_korean_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_lgbtq_movies
+  Type: int32
+  Non-null: 8790
+
+genre_movies
+  Type: int32
+  Non-null: 8790
+
+genre_music_and_musicals
+  Type: int32
+  Non-null: 8790
+
+genre_reality_tv
+  Type: int32
+  Non-null: 8790
+
+genre_romantic_movies
+  Type: int32
+  Non-null: 8790
+
+genre_romantic_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_sci-fi_and_fantasy
+  Type: int32
+  Non-null: 8790
+
+genre_science_and_nature_tv
+  Type: int32
+  Non-null: 8790
+
+genre_spanish-language_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_sports_movies
+  Type: int32
+  Non-null: 8790
+
+genre_stand-up_comedy
+  Type: int32
+  Non-null: 8790
+
+genre_stand-up_comedy_and_talk_shows
+  Type: int32
+  Non-null: 8790
+
+genre_tv_action_and_adventure
+  Type: int32
+  Non-null: 8790
+
+genre_tv_comedies
+  Type: int32
+  Non-null: 8790
+
+genre_tv_dramas
+  Type: int32
+  Non-null: 8790
+
+genre_tv_horror
+  Type: int32
+  Non-null: 8790
+
+genre_tv_mysteries
+  Type: int32
+  Non-null: 8790
+
+genre_tv_sci-fi_and_fantasy
+  Type: int32
+  Non-null: 8790
+
+genre_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_tv_thrillers
+  Type: int32
+  Non-null: 8790
+
+genre_teen_tv_shows
+  Type: int32
+  Non-null: 8790
+
+genre_thrillers
+  Type: int32
+  Non-null: 8790
+
+primary_genre
+  Type: object
+  Non-null: 8790
+
+director_popularity
+  Type: int64
+  Non-null: 8790
+  Mean: 763.59
+  Std: 1178.59
+
+director_rank
+  Type: float64
+  Non-null: 8790
+  Mean: 12.10
+  Std: 7.49
+
+has_prolific_director
+  Type: int32
+  Non-null: 8790
+
+primary_country
+  Type: object
+  Non-null: 8790
+
+country_encoded
+  Type: int32
+  Non-null: 8790
+
+country_popularity
+  Type: int64
+  Non-null: 8790
+  Mean: 1444.92
+  Std: 1402.06
+
+is_us_content
+  Type: int32
+  Non-null: 8790
+
+is_international
+  Type: int32
+  Non-null: 8790
+
+rating_bucket
+  Type: object
+  Non-null: 8790
+
+rating_encoded
+  Type: int32
+  Non-null: 8790
+
+rating_bucket_encoded
+  Type: int32
+  Non-null: 8790
+
+quarter_added
+  Type: int32
+  Non-null: 8790
+
+week_of_year
+  Type: UInt32
+  Non-null: 8790
+
+is_holiday_season
+  Type: int32
+  Non-null: 8790
+
+is_summer
+  Type: int32
+  Non-null: 8790
+
+release_age_category
+  Type: category
+  Non-null: 8790
+
+type_encoded
+  Type: int32
+  Non-null: 8790
+
+is_movie
+  Type: int32
+  Non-null: 8790
+
+is_tv_show
+  Type: int32
+  Non-null: 8790
+
+duration_category
+  Type: category
+  Non-null: 6126
+
+season_category
+  Type: category
+  Non-null: 2664
+
+is_limited_series
+  Type: int32
+  Non-null: 8790
+
+genre_duration_interaction
+  Type: float64
+  Non-null: 8790
+  Mean: 155.75
+  Std: 140.78
+
+age_director_interaction
+  Type: float64
+  Non-null: 8790
+  Mean: 2185.60
+  Std: 8238.96
+
+release_year_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+year_added_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+month_added_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+day_added_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+day_of_week_added_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+duration_minutes_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+season_count_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+release_age_days_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: -0.00
+  Std: 1.00
+
+release_age_years_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: -0.00
+  Std: 1.00
+
+days_since_first_record_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+title_length_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+number_of_genres_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+number_of_countries_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 0.00
+
+title_token_count_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+title_avg_token_length_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+director_popularity_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+director_rank_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+country_popularity_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
+quarter_added_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: -0.00
+  Std: 1.00
+
+week_of_year_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: -0.00
+  Std: 1.00
+
+age_director_interaction_scaled
+  Type: float64
+  Non-null: 8790
+  Mean: 0.00
+  Std: 1.00
+
