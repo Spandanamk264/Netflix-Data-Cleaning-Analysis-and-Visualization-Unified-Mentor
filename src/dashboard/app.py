@@ -25,17 +25,26 @@ st.set_page_config(
 # --- CUSTOM CSS (NETFLIX THEME) ---
 st.markdown("""
     <style>
+    /* Light Theme Main Configuration */
     .main {
-        background-color: #141414;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #333333;
     }
     .stApp {
-        background-color: #141414;
+        background-color: #f5f5f5;
     }
+    
+    /* Typography */
     h1, h2, h3 {
-        color: #E50914 !important;
+        color: #E50914 !important; /* Netflix Red */
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 700;
     }
+    p, div, label, span {
+        color: #333333;
+    }
+    
+    /* Buttons */
     .stButton>button {
         background-color: #E50914;
         color: white;
@@ -43,16 +52,37 @@ st.markdown("""
         border: none;
         height: 3em;
         width: 100%;
+        font-weight: bold;
+        transition: all 0.3s ease;
     }
     .stButton>button:hover {
-        background-color: #b20710;
+        background-color: #b20710; /* Darker Red */
         color: white;
+        border: 1px solid #b20710;
+        transform: scale(1.02);
     }
+    
+    /* Metric Cards */
     .metric-card {
-        background-color: #333;
+        background-color: white;
         padding: 20px;
         border-radius: 10px;
         text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border-left: 5px solid #E50914;
+    }
+    
+    /* Dataframe and Tables */
+    .stDataFrame {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    /* Sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #ffffff;
+        border-right: 1px solid #e0e0e0;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -85,7 +115,7 @@ df = load_data_v2()
 
 # --- SIDEBAR ---
 st.sidebar.title("🍿 Menu")
-page = st.sidebar.radio("Navigate", ["Dashboard Overview", "content Explorer", "AI Recommender", "Prediction Lab"])
+page = st.sidebar.radio("Navigate", ["Dashboard Overview", "content Explorer", "AI Recommender", "Content Classifier"])
 
 st.sidebar.markdown("---")
 st.sidebar.info(f"✅ Database: {len(df):,} titles")
@@ -113,14 +143,14 @@ if page == "Dashboard Overview":
         st.subheader("Content Added Over Time")
         daily_counts = df.groupby(df['date_added'].dt.year)['show_id'].count().reset_index()
         fig_trend = px.area(daily_counts, x='date_added', y='show_id', title="Content Velocity", color_discrete_sequence=['#E50914'])
-        fig_trend.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font_color='white')
+        fig_trend.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font_color='#333333')
         st.plotly_chart(fig_trend, use_container_width=True)
         
     with c2:
         st.subheader("Genre Distribution")
         top_genres = df['primary_genre'].value_counts().head(10)
         fig_genre = px.pie(names=top_genres.index, values=top_genres.values, hole=0.4, title="Top 10 Genres", color_discrete_sequence=px.colors.qualitative.Bold)
-        fig_genre.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font_color='white')
+        fig_genre.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', font_color='#333333')
         st.plotly_chart(fig_genre, use_container_width=True)
 
 elif page == "content Explorer":
@@ -140,9 +170,11 @@ elif page == "content Explorer":
     filtered_df = df.copy()
     
     if search_term:
-        mask = filtered_df['title'].str.contains(search_term, case=False) | \
-               filtered_df['director'].str.contains(search_term, case=False) | \
-               filtered_df['cast'].str.contains(search_term, case=False)
+        mask = filtered_df['title'].str.contains(search_term, case=False, na=False)
+        if 'director' in filtered_df.columns:
+            mask = mask | filtered_df['director'].str.contains(search_term, case=False, na=False)
+        if 'cast' in filtered_df.columns:
+            mask = mask | filtered_df['cast'].str.contains(search_term, case=False, na=False)
         filtered_df = filtered_df[mask]
         
     if genre_filter:
@@ -185,9 +217,9 @@ elif page == "AI Recommender":
             except Exception as e:
                 st.error(f"Connection Failed: Ensure 'run_api.py' is running. Error: {e}")
 
-elif page == "Prediction Lab":
-    st.title("🧪 Prediction Lab")
-    st.markdown("Test the **XGBoost Classifier** in real-time.")
+elif page == "Content Classifier":
+    st.title("🎥 Content Type Classifier")
+    st.markdown("Use our Machine Learning model to **predict if a title is a Movie or TV Show** based on its metadata.")
     
     col1, col2 = st.columns(2)
     
@@ -202,6 +234,7 @@ elif page == "Prediction Lab":
         with st.spinner("Computing..."):
             try:
                 # Call API
+                # Sending user inputs for classification
                 payload = {
                     "duration_minutes": duration,
                     "season_count": season_count,

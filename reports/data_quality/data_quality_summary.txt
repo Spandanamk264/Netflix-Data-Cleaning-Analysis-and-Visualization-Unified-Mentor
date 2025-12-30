@@ -1,0 +1,25 @@
+NETFLIX DATA QUALITY REPORT
+============================================================
+
+Generated: 2025-12-08T15:53:39.093557
+Dataset: data\raw\netflix1.csv
+
+SUMMARY
+------------------------------------------------------------
+total_records: 8790
+total_columns: 10
+memory_usage_mb: 5.26
+columns: ['show_id', 'type', 'title', 'director', 'country', 'date_added', 'release_year', 'rating', 'duration', 'listed_in']
+numeric_columns: ['release_year']
+object_columns: ['show_id', 'type', 'title', 'director', 'country', 'date_added', 'rating', 'duration', 'listed_in']
+
+
+MISSING VALUES
+------------------------------------------------------------
+
+
+DUPLICATES
+------------------------------------------------------------
+full_duplicates: 0
+show_id_duplicates: 0
+title_duplicates: 3

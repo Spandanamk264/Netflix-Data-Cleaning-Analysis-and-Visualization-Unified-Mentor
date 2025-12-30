@@ -1,0 +1,346 @@
+{
+  "timestamp": "2025-12-08T15:53:39.093557",
+  "dataset": "data\\raw\\netflix1.csv",
+  "summary": {
+    "total_records": 8790,
+    "total_columns": 10,
+    "memory_usage_mb": 5.26,
+    "columns": [
+      "show_id",
+      "type",
+      "title",
+      "director",
+      "country",
+      "date_added",
+      "release_year",
+      "rating",
+      "duration",
+      "listed_in"
+    ],
+    "numeric_columns": [
+      "release_year"
+    ],
+    "object_columns": [
+      "show_id",
+      "type",
+      "title",
+      "director",
+      "country",
+      "date_added",
+      "rating",
+      "duration",
+      "listed_in"
+    ]
+  },
+  "missing_values": {
+    "total_rows": 8790,
+    "columns": {
+      "show_id": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "type": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "title": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "director": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "country": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "date_added": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "release_year": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "int64"
+      },
+      "rating": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "duration": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      },
+      "listed_in": {
+        "missing_count": 0,
+        "missing_percentage": 0.0,
+        "dtype": "object"
+      }
+    }
+  },
+  "duplicates": {
+    "full_duplicates": 0,
+    "show_id_duplicates": 0,
+    "title_duplicates": 3
+  },
+  "data_types": {
+    "show_id": {
+      "dtype": "object",
+      "unique_values": 8790,
+      "sample_values": [
+        "s1",
+        "s3",
+        "s6"
+      ]
+    },
+    "type": {
+      "dtype": "object",
+      "unique_values": 2,
+      "sample_values": [
+        "Movie",
+        "TV Show",
+        "TV Show"
+      ]
+    },
+    "title": {
+      "dtype": "object",
+      "unique_values": 8787,
+      "sample_values": [
+        "Dick Johnson Is Dead",
+        "Ganglands",
+        "Midnight Mass"
+      ]
+    },
+    "director": {
+      "dtype": "object",
+      "unique_values": 4528,
+      "sample_values": [
+        "Kirsten Johnson",
+        "Julien Leclercq",
+        "Mike Flanagan"
+      ]
+    },
+    "country": {
+      "dtype": "object",
+      "unique_values": 86,
+      "sample_values": [
+        "United States",
+        "France",
+        "United States"
+      ]
+    },
+    "date_added": {
+      "dtype": "object",
+      "unique_values": 1713,
+      "sample_values": [
+        "9/25/2021",
+        "9/24/2021",
+        "9/24/2021"
+      ]
+    },
+    "release_year": {
+      "dtype": "int64",
+      "unique_values": 74,
+      "sample_values": [
+        2020,
+        2021,
+        2021
+      ]
+    },
+    "rating": {
+      "dtype": "object",
+      "unique_values": 14,
+      "sample_values": [
+        "PG-13",
+        "TV-MA",
+        "TV-MA"
+      ]
+    },
+    "duration": {
+      "dtype": "object",
+      "unique_values": 220,
+      "sample_values": [
+        "90 min",
+        "1 Season",
+        "1 Season"
+      ]
+    },
+    "listed_in": {
+      "dtype": "object",
+      "unique_values": 513,
+      "sample_values": [
+        "Documentaries",
+        "Crime TV Shows, International TV Shows, TV Action & Adventure",
+        "TV Dramas, TV Horror, TV Mysteries"
+      ]
+    }
+  },
+  "categorical_consistency": {
+    "type": {
+      "unique_values": [
+        "Movie",
+        "TV Show"
+      ],
+      "counts": {
+        "Movie": 6126,
+        "TV Show": 2664
+      }
+    },
+    "rating": {
+      "unique_values": [
+        "TV-MA",
+        "TV-14",
+        "TV-PG",
+        "R",
+        "PG-13",
+        "TV-Y7",
+        "TV-Y",
+        "PG",
+        "TV-G",
+        "NR",
+        "G",
+        "TV-Y7-FV",
+        "NC-17",
+        "UR"
+      ],
+      "counts": {
+        "TV-MA": 3205,
+        "TV-14": 2157,
+        "TV-PG": 861,
+        "R": 799,
+        "PG-13": 490,
+        "TV-Y7": 333,
+        "TV-Y": 306,
+        "PG": 287,
+        "TV-G": 220,
+        "NR": 79,
+        "G": 41,
+        "TV-Y7-FV": 6,
+        "NC-17": 3,
+        "UR": 3
+      },
+      "total_unique": 13
+    },
+    "country": {
+      "sample_values": [
+        "United States",
+        "France",
+        "United States",
+        "Brazil",
+        "United States",
+        "United Kingdom",
+        "United States",
+        "India",
+        "Germany",
+        "India"
+      ],
+      "contains_multiple": false
+    }
+  },
+  "date_formats": {
+    "date_added": {
+      "total_non_null": 8790,
+      "invalid_formats": 0,
+      "valid_percentage": 100.0,
+      "sample_values": [
+        "9/25/2021",
+        "9/24/2021",
+        "9/24/2021",
+        "9/22/2021",
+        "9/24/2021"
+      ],
+      "date_range": {
+        "min": "2008-01-01 00:00:00",
+        "max": "2021-09-25 00:00:00"
+      }
+    },
+    "release_year": {
+      "min": 1925,
+      "max": 2021,
+      "mean": 2014.18,
+      "outliers": 0
+    }
+  },
+  "duration_formats": {
+    "total_non_null": 8790,
+    "minutes_format": 6126,
+    "seasons_format": 2664,
+    "malformed": 0,
+    "sample_values": [
+      "90 min",
+      "1 Season",
+      "1 Season",
+      "91 min",
+      "125 min",
+      "9 Seasons",
+      "104 min",
+      "87 min",
+      "127 min",
+      "76 min"
+    ]
+  },
+  "outliers": {
+    "release_year": {
+      "Q1": 2013.0,
+      "Q3": 2019.0,
+      "IQR": 6.0,
+      "outlier_count": 717,
+      "outlier_percentage": 8.16
+    }
+  },
+  "text_fields": {
+    "title": {
+      "avg_length": 17.72,
+      "max_length": 104,
+      "min_length": 1,
+      "empty_strings": 0,
+      "sample": [
+        "Dick Johnson Is Dead",
+        "Ganglands",
+        "Midnight Mass"
+      ]
+    },
+    "director": {
+      "avg_length": 13.53,
+      "max_length": 208,
+      "min_length": 2,
+      "empty_strings": 0,
+      "sample": [
+        "Kirsten Johnson",
+        "Julien Leclercq",
+        "Mike Flanagan"
+      ]
+    },
+    "listed_in": {
+      "avg_length": 33.43,
+      "max_length": 79,
+      "min_length": 6,
+      "empty_strings": 0,
+      "sample": [
+        "Documentaries",
+        "Crime TV Shows, International TV Shows, TV Action & Adventure",
+        "TV Dramas, TV Horror, TV Mysteries"
+      ]
+    },
+    "country": {
+      "avg_length": 9.63,
+      "max_length": 20,
+      "min_length": 4,
+      "empty_strings": 0,
+      "sample": [
+        "United States",
+        "France",
+        "United States"
+      ]
+    }
+  }
+}

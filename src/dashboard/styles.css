@@ -1,0 +1,71 @@
+
+/* GLOBAL DARK THEME OVERRIDES */
+:root { 
+    --design-primary-color: #E50914;
+    --background-color: #141414;
+    --surface-color: #1f1f1f;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Force Panel/Bokeh Widgets to be white text */
+.bk-root, .bk, .bk-input-group label, .bk-slider-title, .bk-root label {
+    color: #ffffff !important;
+    font-size: 0.95rem;
+}
+
+/* Specific overrides for Tabulator tables if used */
+.tabulator {
+    background-color: var(--surface-color) !important;
+    color: white !important;
+}
+.tabulator-header {
+    background-color: #000 !important;
+    color: #E50914 !important;
+}
+
+/* Sidebar Customization */
+#sidebar {
+    background-color: #000000 !important;
+    border-right: 1px solid #333;
+}
+
+/* KPI Card Style */
+.kpi-card {
+    background: linear-gradient(145deg, #1f1f1f, #252525);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    border-left: 4px solid var(--design-primary-color);
+    transition: transform 0.2s;
+    color: white;
+}
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(229, 9, 20, 0.2);
+}
+.kpi-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.kpi-title {
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* Chart Container */
+.chart-box {
+    background-color: var(--surface-color);
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}

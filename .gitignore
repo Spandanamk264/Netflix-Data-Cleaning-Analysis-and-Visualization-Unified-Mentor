@@ -46,44 +46,24 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data files (keep structure, ignore large files)
-data/processed/*.csv
-data/processed/*.parquet
-data/features/*.npy
-data/features/*.pkl
-data/exports/*.csv
+# Documents (EXCLUDED AS REQUESTED)
+*.pdf
+*.docx
 
-# Model artifacts
-models/*.pkl
-models/*.h5
-models/*.pt
-models/*.pth
-models/*.joblib
-models/*.onnx
+# Large files (>100MB) that will crash GitHub Push
+# models/similarity_matrix.joblib (Handled by LFS now)
+*.zip
+*.tar.gz
+*.rar
 
 # Logs
 logs/*.log
 logs/*.json
 
-# Reports (keep structure, ignore generated files)
-reports/data_quality/*.json
-reports/data_quality/*.txt
-reports/eda/*.html
-reports/eda/*.png
-reports/model_performance/*.html
-reports/model_performance/*.png
-reports/business_insights/*.pdf
-
 # Database
 *.db
 *.sqlite
 *.sqlite3
-
-# Testing
-.coverage
-htmlcov/
-.pytest_cache/
-.tox/
 
 # Docker
 *.log
@@ -93,11 +73,3 @@ htmlcov/
 *.temp
 tmp/
 temp/
-
-# Large files
-*.zip
-*.tar.gz
-*.rar
-
-# Keep directory structure
-!.gitkeep
